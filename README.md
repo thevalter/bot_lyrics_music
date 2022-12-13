@@ -14,7 +14,7 @@
 
 ![Image](https://github.com/thevalter/bot_lyrics_music/blob/main/assets/readme/1.png)
 
-### 3 - Digita o nome do artista seguido da musica
+### 3 - Digite o nome do artista seguido da musica
 
 ![Image](https://github.com/thevalter/bot_lyrics_music/blob/main/assets/readme/2.png)
 
@@ -22,7 +22,7 @@
 
 ![Image](https://github.com/thevalter/bot_lyrics_music/blob/main/assets/readme/3.png)
 
-### 5 - Caso queira salvar a letra em um arquivo .txt, basta confirmar com "yes" e o arquivo sera salvo na pasta lyrics_sources dentro da raiz do projeto.
+### 5 - Caso queira salvar a letra em um arquivo .txt, basta confirmar com "yes" e o arquivo sera salvo dentro da pasta lyrics_sources na raiz do projeto.
 
 ![Image](https://github.com/thevalter/bot_lyrics_music/blob/main/assets/readme/4.png)
 
