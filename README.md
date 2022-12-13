@@ -12,19 +12,19 @@
 
 ### 2- Dentro da pasta, digite node index 
 
-[Image](https://github.com/thevalter/bot_lyrics_music/blob/main/assets/readme/1.png)
+![Image](https://github.com/thevalter/bot_lyrics_music/blob/main/assets/readme/1.png)
 
 ### 3 - Digita o nome do artista seguido da musica
 
-[Image](https://github.com/thevalter/bot_lyrics_music/blob/main/assets/readme/2.png)
+![Image](https://github.com/thevalter/bot_lyrics_music/blob/main/assets/readme/2.png)
 
 ### 4 - Prontinho! se tudo der certo, ele ira retornar a letra da musica diretamente no seu terminal.
 
-[Image](https://github.com/thevalter/bot_lyrics_music/blob/main/assets/readme/3.png)
+![Image](https://github.com/thevalter/bot_lyrics_music/blob/main/assets/readme/3.png)
 
 ### 5 - Caso queira salvar a letra em um arquivo .txt, basta confirmar com "yes" e o arquivo sera salvo na pasta lyrics_sources dentro da raiz do projeto.
 
-[Image](https://github.com/thevalter/bot_lyrics_music/blob/main/assets/readme/4.png)
+![Image](https://github.com/thevalter/bot_lyrics_music/blob/main/assets/readme/4.png)
 
 # 👨‍💻 Tecnologias utilizadas
 
