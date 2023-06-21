@@ -6,7 +6,7 @@ const url = 'https://genius.com/';
 
 async function bot() {
     const searchFor = readLineSync.question('digite o nome do artista seguido da musica que deseja pesquisar (evite usar caracteres especiais): ');
-    const browser = await pup.launch({ headless: true });
+    const browser = await pup.launch({ headless: false });
     const page = await browser.newPage();
     await page.setDefaultNavigationTimeout(0);
     console.log('buscando...')
@@ -15,9 +15,10 @@ async function bot() {
     await page.type('input[name="q"]', searchFor);
     await page.click('.PageHeaderSearchdesktop__Icon-eom9vk-1');
     await page.waitForNavigation();
-    await page.click('.u-clickable .mini_card');
+    await page.click('search-result-item mini-song-card a');
+    await page.waitForNavigation();
     console.log('prontinho!');
-    const result = await page.$$eval('div[data-lyrics-container="true"]', el => el.map(lt => lt.innerText));
+    const result = await page.$$eval('[data-lyrics-container="true"]', el => el.map(lt => lt.innerText));
     const resultFormated = result.toString().replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
     console.log(resultFormated);
     console.log('');
